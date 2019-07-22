@@ -1,0 +1,141 @@
+/********** Base styles **********/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+  padding: 0px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  font-size: 175%;
+  font-weight: bold;
+  color: #00000;
+}
+
+h2 {
+  position: relative;
+  float: center;
+  margin: 0px;
+  padding: 5px 50px 5px 50px;
+  border: 0px solid black;
+  border-collapse: collapse;
+  background-color: #B6B6B6;
+  color: ;
+  font-size: 125%;
+  font-weight: bold;
+}
+
+/********** ID styles **********/
+
+#ChickenSection, #BeefSection, #SushiSection {
+  margin: 10px;
+  height: 1000px;
+  border-collapse: collapse;
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  border: 20px;
+}
+
+#paragraph {
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  border: 0px solid black;
+  background-color: #B6B6B6;
+  width: 100%;
+  height: 10000px;
+  font-weight: bold;
+  color: black;
+}
+
+#Chicken {
+  background-color: ; 
+  color: #00000;
+}
+
+#header-nav {
+  background-color: #B6B6B6;
+}
+
+#nav-list {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+#nav-list a {
+  color: ;
+}
+
+#nav-list a:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #000000;
+}
+
+li {
+  border: 1px solid black;
+}
+
+
+
+/*
+#Beef {
+  background-color: #C61B08;
+  color: #FFFFFF;
+}
+
+#Sushi {
+  background-color: #E8DE67; 
+  color: #00000;
+}
+
+
+.row {
+  width: 100%;
+}
+
+
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    border: 0px;
+    width: 33.33%;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    border: 0px;
+    width: 50%;
+  }
+  .col-md-12 {
+    float: left;
+    border: 0px;
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    border: 0px;
+    padding: 0px 20px 0px 20px;
+    width: 100%;
+  }
+}
+*/
